@@ -8,6 +8,39 @@
     <title>Login Page</title>
 </head>
 <body>
-    
+    <section class="flex-container">
+        <div class="flex-item-primeira-div">
+            <!-- Textos antes do formulário de Login -->
+            <h1 class="h1-ola">
+                Olá,
+            </h1>
+            <p class="p-ola">
+                Para continuar navegando de forma segura, efetue o login na rede.
+            </p>
+
+            <!-- Formulário de Login -->
+            <form>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" placeholder="email.usuario@compasso.com.br" id="email" required />
+                </div>
+                <div>
+                    <label for="password"></label>
+                    <input type="password" placeholder="Digite sua senha" id="password" required />
+                </div>
+            </form>
+
+            <!-- Botão continuar para efetuar o Login-->
+            <button class="btn-continuar">Continuar</button>
+        </div>
+
+        <!--Coluna das imagens da página de Login -->
+        <div class="flex-item-segunda-div">
+            <!--Logo da Compass-->
+            <img src="./assets/Imports/img/logo-compass-bg.png" alt="Logo da Compass" class="logo-bg" />
+            <!--Imagem do Computador-->
+            <img src="./assets/Imports/img/background-login.png" alt="Imagem de um notebook, iluminado com cores RGB." class="bg-imagem" />
+        </div>
+    </section>
 </body>
 </html>
