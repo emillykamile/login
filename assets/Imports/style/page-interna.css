@@ -1,6 +1,133 @@
 @import url('./reset.css');
 
+
 *  {
     font-family: "Poppins", sans-serif;
     font-size: 14px;  
 }
+
+    /* Não funciona ainda
+    body {
+        max-height: 100vw;
+        max-width: 100vw;
+} 
+*/
+
+    .div-logo-imagem {
+        margin: 32px;
+        display: flex;
+        justify-content: space-between;
+  }
+  
+    .logo-bola-section {
+        width: 98vw;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+  }
+    .bola-compass-item {
+        max-height: 100vh;
+  }
+    .text-div {
+        margin: 48px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+  }
+    .div-textos h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 80px;
+        text-align: right;
+        color: #c12d18;
+  }
+    .div-textos h2:first-child {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: right;
+  }
+    .div-textos p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 16px;
+        text-align: right;
+  }
+  
+    .section-footer {
+        display: flex;
+        justify-content: space-around;
+        background: rgb(28, 29, 32);
+        width: 100vw;
+  }
+    .div-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        text-align: end;
+  }
+    .div-footer p {
+        color: #FFF;
+        width: 540px;
+  }
+    .separador {
+        background: #FFF;
+        border: 0.1px solid #ffffff;
+        width: 1px;
+        height: 61px;
+        margin-left: 2rem;
+        margin-right: 3rem;
+  }
+    .div-footer h3 {
+        color: #FFF;
+        width: 33.813rem;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+    }
+
+    .div-footer h2 {
+        color: #FFF;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+    }
+
+
+    .div-tempo {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+  }
+    .div-tempo h1 {
+        color: #FFF;
+        font-size: 48px;
+        line-height: 32px;
+        margin-left: 64px;
+  }
+    .div-tempo h1:last-child {
+        color: #FFF;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+  }
+    .botoes-footer {
+        display: flex;
+  }
+    .btn-footer {
+        float: right;
+        width: 130px;
+        height: 100%;
+        background: #1c1d20;
+        color: #FFF;
+        border: none;
+  }
+    .btn-footer:hover {
+        cursor: pointer;
+        background: #FFF;
+        color: #c12d18;
+        transition: 200ms;
+  }
