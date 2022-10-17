@@ -10,28 +10,34 @@
 <body>
     <section class="flex-container">
         <div class="flex-item-primeira-div">
+            <div class="div-start">
             <!-- Textos antes do formulário de Login -->
+            <div class="textos">
             <h1 class="h1-ola">
                 Olá,
             </h1>
             <p class="p-ola">
                 Para continuar navegando de forma segura, efetue o login na rede.
             </p>
-
+            </div>
             <!-- Formulário de Login -->
-            <form>
-                <div>
-                    <label for="email"></label>
+            <form class="form-section">
+                <div class="div-form">
                     <input type="email" placeholder="email.usuario@compasso.com.br" id="email" required />
-                </div>
-                <div>
-                    <label for="password"></label>
                     <input type="password" placeholder="Digite sua senha" id="password" required />
                 </div>
-            </form>
+            </form> 
+            <!-- Icones do Formulário -->
 
+            <!--
+              <div class="icones-login">
+                <img class="icon icon1" src="./assets/Imports/img/Vector (1).svg">
+                <img class="icon icon2" src="./assets/Imports/img/icon-password.svg">
+              </div>
+            -->
             <!-- Botão continuar para efetuar o Login-->
             <button class="btn-continuar">Continuar</button>
+        </div>
         </div>
 
         <!--Coluna das imagens da página de Login -->

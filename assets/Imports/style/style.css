@@ -1,4 +1,5 @@
 @import url('./reset.css');
+@import url('./page-interna.css');
 
 *  {
     font-family: "Poppins", sans-serif;
@@ -18,11 +19,19 @@
 }
 
 .flex-item-primeira-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     height: 100%;
     color: #E0E0E0;
     
 }
+
+.div-start {
+    align-items: flex-start;
+}
+
 
 .flex-item-segunda-div {
     width: 50%;
@@ -39,6 +48,13 @@
     font-size: 18px;
 }
 
+.btn-continuar:hover {
+    color: #000;
+    background-image: linear-gradient(to right, #FFF , #C13216);
+    transition: 450ms;
+    cursor: pointer;
+}
+
 .h1-ola {
     font-size: 60px;
 }
@@ -46,6 +62,50 @@
 .p-ola {
     font-size: 16px;
 }
+
+.form-section {
+    display: flex;
+    flex-flow: column;
+}
+
+.div-form input {
+    color: #FFF;
+    margin: 16px 0px 16px 0px;
+    padding: 20px 0px 20px 20px;
+    width: 100%;
+    border-radius: 48px;
+    background: none;
+    border-width: 1px;
+    border-color: #FFF;
+    text-align: justify;
+}
+
+.div-form input ::-moz-placeholder {
+    padding-left: 16px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.div-form input :-ms-input-placeholder {
+    padding-left: 16px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+/* Não está funcionando */
+/* .icones-login {
+    margin-top: 130px;
+    margin-left: 16px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  } */
 
 
 
