@@ -1,22 +1,36 @@
 
- const deslogar = () => {
-    window.location.href = './index.html'
+  var innerTextOutput = document.getElementById("tempo");
+
+  const deslogar = () => {
+      window.location.href = './index.html'
+    }
+
+  const atualizacao = () => {
+    let valorAtual = innerTextOutput.innerText;
+    
+    innerTextOutput.innerText = --valorAtual;
+
+    
   }
   
-  let FooterSegundos = document.getElementById("#tempo");
-  
-  let tempo = () => {
-    if(FooterSegundos !== 0){
-      setTimeout(tempo, 120)
-      FooterSegundos.textContent = footerSegundos;
-      tempo--;
+  const inicializarContador = () => {
+    
+    setInterval(atualizacao, 1000)
+  }
+
+  let tempoContador = () => {
+    if(innerTextOutput !== 0){
+      setTimeout(innerTextOutput, 600)
+    }if(confirm('Continuar logado?') === true){
+      window.location.reload();
     }else{
-      if(confirm('Continuar logado?') === true){
-        window.location.reload();
-      }else{
-        deslogar();
-      }
+      deslogar();
     }
   }
+
+  
+  inicializarContador();
+
+
 
   
