@@ -13,17 +13,35 @@
         <div class="div-logo-imagem">
             <img src="./assets/Imports/img/LogoCompasso 1.png" alt="Logo da empresa Compass, com texto." />
             <div>
-                <h2>Previsão do tempo</h2>
+             <!--    Previsão do tempo -->
+             <!--<div class="place-and-weather-container">
+                <span class="noselect place">Recife - PE</span>
+                <span class="noselect weather"> <i>:o</i> 24°</span>
             </div>
-        </div>
+        </div>-->
     </section>
 
+   
     <!--Seção da data -->
+ 
+    <script>
+        const time = new Date();
+        var timeAtual = new Intl.DateTimeFormat('pt-br', {timeStyle: 'short'}).format(time);
+        document.write(timeAtual);
+    </script>
+    <script>
+        const now = new Date();
+        var dataAtual = new Intl.DateTimeFormat('pt-BR', { dateStyle:'full' }).format(now);
+        document.write(dataAtual);
+    </script>
+
     <section>
-        <div>
-            <p></p>
-            <p></p>
-        </div>
+        
+        <!--<div class="time-and-date">
+            <span class="select-time">06:21</span>
+            <span class="select-date">quarta-feira, 18 de março de 2020</span>
+          </div>
+        </div> -->
     </section>
 
     <!-- Bola de background -->
@@ -31,6 +49,7 @@
         <div>
             <img class="bola-compass-item" src="./assets/Imports/img/bola-LogoCompasso 1.png" alt="Logo em formato de bola da Compass"/>
         </div>
+    <!-- Textos -->
         <div class="div-textos">
             <h2>Our mission is</h2>
             <p>Nossa missão é</p>
@@ -64,6 +83,6 @@
     </section>
 
     <!-- Scripts JS -->
-
+    
 </body>
 </html>

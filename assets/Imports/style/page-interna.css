@@ -6,13 +6,6 @@
     font-size: 14px;  
 }
 
-    /* Não funciona ainda
-    body {
-        max-height: 100vw;
-        max-width: 100vw;
-} 
-*/
-
     .div-logo-imagem {
         margin: 32px;
         display: flex;

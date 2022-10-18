@@ -21,22 +21,23 @@
             </p>
             </div>
             <!-- Formulário de Login -->
-            <form class="form-section">
+            <form class="form-section" id="form-action" action="page-interna.html" method="GET">
                 <div class="div-form">
-                    <input type="email" placeholder="email.usuario@compasso.com.br" id="email" required />
-                    <input type="password" placeholder="Digite sua senha" id="password" required />
+                    <input type="email" class="usuario" placeholder="email.usuario@compasso.com.br" id="email" required />
+                    <input type="password" placeholder="Digite sua senha" id="senha" required />
                 </div>
+                <div id="alert"></div>
+                <button class="btn-continuar" id="botao-continuar">Continuar</button>
             </form> 
             <!-- Icones do Formulário -->
 
             <!--
               <div class="icones-login">
-                <img class="icon icon1" src="./assets/Imports/img/Vector (1).svg">
-                <img class="icon icon2" src="./assets/Imports/img/icon-password.svg">
+                <img class="icone 1" src="./assets/Imports/img/Vector (1).svg">
+                <img class="icone 2" src="./assets/Imports/img/icon-password.svg">
               </div>
             -->
             <!-- Botão continuar para efetuar o Login-->
-            <button class="btn-continuar">Continuar</button>
         </div>
         </div>
 
@@ -48,5 +49,8 @@
             <img src="./assets/Imports/img/background-login.png" alt="Imagem de um notebook, iluminado com cores RGB." class="bg-imagem" />
         </div>
     </section>
+
+    <!-- Scripts JS -->
+    <script src="./validacaoLogin.js"></script>
 </body>
 </html>
