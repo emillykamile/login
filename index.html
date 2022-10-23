@@ -23,10 +23,17 @@
             <!-- Formulário de Login -->
             <form class="form-section" id="form-action" action="page-interna.html" method="GET">
                 <div class="div-form">
-                    <input type="email" class="usuario" placeholder="email.usuario@compasso.com.br" id="email" required />
-                    <input type="password" placeholder="Digite sua senha" id="senha" required />
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" class="usuario" placeholder="email.usuario@compasso.com.br" id="email" required />
+                        <small id="textEmail"></small>
+                    </div>
+                    <div>
+                        <label for="password"></label>
+                        <input type="password" placeholder="Digite sua senha" id="password" required />
+                        <samll id="textPassword"></samll>
+                    </div>
                 </div>
-                <div id="alert"></div>
                 <button class="btn-continuar" id="botao-continuar">Continuar</button>
             </form> 
             <!-- Icones do Formulário -->
