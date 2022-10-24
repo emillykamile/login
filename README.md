@@ -22,7 +22,11 @@ Com esse projeto, os colaboradores vão poder desfrutar da boa usabilidade.
 
 # Os usuários e senhas disponíveis para utilização no projeto são:
 
-- Todos que atenderem os requisitos mínimos:
+- Usuário = todos que após o @, estiver no formato adequado: 
+
+   "@compasso.com.br"
+
+- Senha = todos que atenderem os requisitos mínimos:
 
 8 caracteres no mínimo
 1 Letra Maiúscula no mínimo
@@ -31,23 +35,19 @@ Com esse projeto, os colaboradores vão poder desfrutar da boa usabilidade.
 Se der, também não permitir sequência igual (aa, bb, 44, etc)
 
 # Requisitos funcionais
-✔ Requisitos Principais
- ✔ Telas
-   ✔ Login
-   ✔ Home
-  (Refazendo) Validação login com usuário e senha
-  ✔ Data e horário em tempo real
-  (Refazendo) Exibir informação de Clima/Tempo conforme geolocalização do usuário
-  ✔ Cronômetro ao acessar a página Home.
-  (Refazendo) Redirecionar o usuário ao término do cronômetro para página Login
-  (Refazendo) Logout do usuário
-  (Refazendo) Armazenar dados no LocalStorage
-  (Refazendo) Controlar o estado do usuário de Logout e Login
-  (Refazendo) Caso o usuário realize o logout, deverá aparecer um Pop-up que perguntará ao usuário se deseja continuar logado
-  (Refazendo) Caso deseje continuar logado, o login será automático sem a necessidade de preencher os campos novamente
-  (Refazendo) Caso deseje sair, o local storage deverá ser resetado e o usuário deslogado.
-  ✔ Navegação para página da UOL
-  
+
+- Requisitos Principais
+   Telas 
+     Login  ✔ 
+     Home   ✔ 
+     Validação de login com usuário e senha  ✔ 
+     (Refazendo a estilização) Data e horário em tempo real  ✔ 
+     (Refazendo) Exibir informação de Clima/Tempo conforme a geolocalização do usuário 
+     (Refazendo validações do cronômetro) Cronômetro ao acessar a página Home  ✔ 
+     (Refazendo) Redireicionar o usuário ao término do cronômetro para página Login
+     (Refazendo) Caso o usuário realize o logout, deverá aparecer um Pop-up que perguntará ao usuário se deseja continuar logado
+     Navegação para página da UOL ✔ 
+
  # Responsividade
  
  ✔ Apenas para Desktop
