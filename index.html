@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,12 +26,12 @@
                 <div class="div-form">
                     <div>
                         <label for="email"></label>
-                        <input type="email" class="usuario" placeholder="email.usuario@compasso.com.br" id="email" required />
+                        <input type="email" class="usuario" placeholder="email.usuario@compasso.com.br" id="email" required onfocusout="validatorEmail()"/>
                         <small id="textEmail"></small>
                     </div>
                     <div>
                         <label for="password"></label>
-                        <input type="password" placeholder="Digite sua senha" id="password" required />
+                        <input type="password" placeholder="Digite sua senha" id="password" required onfocusout="validatorPassword()"/>
                         <samll id="textPassword"></samll>
                     </div>
                 </div>
