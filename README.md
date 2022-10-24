@@ -28,10 +28,10 @@ Com esse projeto, os colaboradores vão poder desfrutar da boa usabilidade.
 
 - Senha = todos que atenderem os requisitos mínimos:
 
-8 caracteres no mínimo
-1 Letra Maiúscula no mínimo
-1 Número no mínimo
-1 Símbolo no mínimo: $*&@#
+8 caracteres no mínimo <br>
+1 Letra Maiúscula no mínimo <br>
+1 Número no mínimo <br>
+1 Símbolo no mínimo: $*&@# <br>
 
 # Requisitos funcionais
 
